@@ -4,7 +4,7 @@ description := "Scala implementation of a Burst Trie"
 
 organization := "com.nefariouszhen.trie"
 
-version := "0.1"
+version := "0.2-SNAPSHOT"
 
 licenses := Seq("Apache 2" -> new URL("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
