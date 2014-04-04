@@ -25,14 +25,6 @@ publishTo <<= version { (v: String) =>
 }
 
 pomExtra :=
-<url>http://jsuereth.com/scala-arm</url>
-<licenses>
-  <license>
-    <name>Apache 2</name>
-    <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    <distribution>repo</distribution>
-  </license>
-</licenses>
 <scm>
    <connection>scm:git:https://github.com/nbauernfeind/scala-burst-trie.git</connection>
    <developerConnection>scm:git:ssh://git@github.com:nbauernfeind/scala-burst-trie.git</developerConnection>
