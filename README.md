@@ -10,7 +10,7 @@ I used this implementation on Stripe's CTF 3, level 3 in my fastest multi-host s
 ```xml
 <dependency>
   <groupId>com.nefariouszhen.trie</groupId>
-  <artifactId>burst-trie_${scala.binary.version}</artifactId>
+  <artifactId>scala-burst-trie_${scala.binary.version}</artifactId>
   <version>0.1</version>
 </dependency>
 ```
