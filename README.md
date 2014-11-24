@@ -11,7 +11,7 @@ I used this implementation on Stripe's CTF 3, level 3 in my fastest multi-host s
 <dependency>
   <groupId>com.nefariouszhen.trie</groupId>
   <artifactId>scala-burst-trie_${scala.binary.version}</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
 </dependency>
 ```
 
