@@ -4,7 +4,7 @@ description := "Scala implementation of a Burst Trie"
 
 organization := "com.nefariouszhen.trie"
 
-version := "0.2-SNAPSHOT"
+version := "0.2"
 
 licenses := Seq("Apache 2" -> new URL("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
@@ -12,9 +12,11 @@ homepage := Some(url("https://github.com/nbauernfeind/scala-burst-trie"))
 
 publishMavenStyle := true
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.4"
 
-crossScalaVersions := Seq("2.10.4", "2.11.2")
+crossScalaVersions := Seq("2.10.4", "2.11.4")
+
+credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 
 publishTo <<= version { (v: String) =>
   val nexus = "https://oss.sonatype.org/"
